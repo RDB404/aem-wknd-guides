@@ -2,6 +2,8 @@
 <jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
+        cq:lastModified="{Date}2024-07-31T12:21:30.856+02:00"
+        cq:lastModifiedBy="admin"
         cq:tags="[]"
         cq:template="/conf/wknd/settings/wcm/templates/xf-web-variation"
         cq:xfMasterVariation="{Boolean}true"
@@ -10,12 +12,56 @@
         jcr:title="Footer"
         sling:resourceType="wknd/components/xfpage">
         <root
+            jcr:lastModified="{Date}2024-07-31T12:16:24.182+02:00"
+            jcr:lastModifiedBy="admin"
             jcr:primaryType="nt:unstructured"
             sling:resourceType="wknd/components/container"
             layout="responsiveGrid">
             <separator
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/separator"/>
+            <image
+                jcr:created="{Date}2024-07-31T12:18:06.546+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-07-31T12:18:40.644+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/image"
+                alt="Logo del sito weekend light"
+                altValueFromDAM="false"
+                disableLazyLoading="false"
+                displayPopupTitle="true"
+                fileReference="/content/dam/wknd/en/site/wknd-logo-light.svg"
+                imageFromPageImage="false"
+                isDecorative="false"
+                linkTarget="_self"
+                linkURL="/content/wknd/us/en"
+                titleValueFromDAM="true">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="2"/>
+                </cq:responsive>
+            </image>
+            <navigation
+                jcr:created="{Date}2024-07-31T12:19:25.988+02:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2024-07-31T12:21:30.855+02:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="wknd/components/navigation"
+                collectAllPages="true"
+                disableShadowing="false"
+                navigationRoot="/content/wknd/us/en"
+                structureStart="1">
+                <cq:responsive jcr:primaryType="nt:unstructured">
+                    <default
+                        jcr:primaryType="nt:unstructured"
+                        offset="0"
+                        width="7"/>
+                </cq:responsive>
+            </navigation>
             <text
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="wknd/components/text"
